@@ -1,10 +1,4 @@
 {
-  "dependencies": {
-    "22": "^0.0.0",
-    "bcrypt": "^5.1.1",
-    "db-local": "^3.1.0",
-    "express": "4.19.2"
-  },
   "name": "authuser",
   "version": "1.0.0",
   "main": "index.js",
@@ -17,6 +11,12 @@
   "author": "",
   "license": "ISC",
   "description": "",
+  "dependencies": {
+    "22": "^0.0.0",
+    "bcrypt": "^5.1.1",
+    "db-local": "^3.1.0",
+    "express": "4.19.2"
+  },
   "devDependencies": {
     "@types/express": "^4.17.21",
     "standard": "17.1.0"

@@ -3,10 +3,11 @@ import { PORT } from './config.js'
 import { UserRepository } from './user-repository.js'
 
 const app = express()
+
 app.use(express.json())
 
 app.get('/', (req, res) => {
-  res.send('Hola Lookym')
+  res.send('<h1>Hola Luis y Familia</h1>')
 })
 app.post('/login', (req, res) => { })
 
@@ -24,7 +25,9 @@ app.post('/register', (req, res) => {
     res.status(400).send(error.message)
   }
 })
-app.post('/logout', (req, res) => { })
+app.post('/logout', (req, res) => {
+
+})
 
 app.get('/protected', (req, res) => {
 })
