@@ -9,7 +9,9 @@ app.use(express.json())
 app.get('/', (req, res) => {
   res.send('<h1>Hola Luis y Familia</h1>')
 })
-app.post('/login', (req, res) => { })
+app.post('/login', (req, res) => {
+  res.json('Lookym the best')
+})
 
 app.post('/register', (req, res) => {
   const { username, password } = req.body
