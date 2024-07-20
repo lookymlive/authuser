@@ -1,10 +1,2 @@
-.env
-node_modules
+user.json
 users.json
-*.log
-*.json  
-*.tmp
-*.code-workspace
-.vscode
-.DS_Store
-Thumbs.db
